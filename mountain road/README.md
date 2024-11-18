@@ -9,7 +9,7 @@ A more detailed description of our dataset is given as follows.
 Special case: in the txt files, we set the Z-values of all ground vehicular trajectories to 0.
 
 ## Data Collected by Vehicle
- 
+
 <details>
 <summary><strong>Coordinate System Description</strong></summary>
 
@@ -920,7 +920,7 @@ The camera and LiDAR sensors deployed on the RSFs in this scenario are also of t
 <details>
 
 <summary><strong>RSF position</strong></summary>
- 
+
 
 The deployment of RSFs is the same across different traffic density scenarios, and the table below describes the positions of RSFs in each scenario.
 

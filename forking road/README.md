@@ -7,11 +7,11 @@ The scenario contains 9 roadside facilities (RSFs) and a fork in the road. The v
 A more detailed description of our dataset is given as follows. 
 
 Special case: in the txt files, we set the Z-values of all ground vehicular trajectories to 0.
- 
+
 
 
 ## Data Collected by Vehicle
- 
+
 <details>
 <summary><strong>Coordinate System Description</strong></summary>
 
@@ -778,10 +778,10 @@ We sort out the valid simulation intervals of each car in this scene as follows.
 
 
 ## **Data Collected by UAV**
- 
+
 <details>
 <summary><strong>Coordinate System Description</strong></summary>
- 
+
 #### **[World Coordinate System]:**
 The world coordinate system is a North-East-Down (NED) coordinate system with the X-axis pointing north, the Y-axis pointing east, and the Z-axis pointing downward. It is a right-handed coordinate system, with the origin at the same height as the ground.
 
