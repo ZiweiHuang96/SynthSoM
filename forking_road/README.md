@@ -1,4 +1,4 @@
-# Air-ground Multi-link Cooperative Suburban Fork Scenario
+# Air-Ground Multi-link Cooperative Suburban Fork Scenario
 <img src="./img/Scene Overview forking road.png" alt="Display image of subruban fork scene" width="500" height="">
 
 ## Description
