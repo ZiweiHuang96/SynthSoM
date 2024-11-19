@@ -1,6 +1,6 @@
 #  Air-Ground Multi-Link Cooperative Urban Crossroad Scenario
 
-![Scene overview urban crossroad](img\scene overview urban crossroad.png)
+![Scene overview urban crossroad](img\scene_overview_urban_crossroad.png)
 
 The vehicular urban crossroad scenario contains 11 roadside facilities (RSFs) and many trees. The vehicle and UAV are equipped with communication devices and multi-modal sensors, including three cameras, two types of depth cameras (three each), and a LiDAR. The time interval between adjacent snapshots is 50 ms and the frame rate of the multi-modal sensory data at the vehicle is 20 Hz. The frame rate of the communication data is also 20 Hz. The snapshots corresponding to all data are reflected in the filenames, such as "snapshot91_pointcloud.txt" for LiDAR point cloud data at snapshot 91 and "csi_95.mat" for the chanenl matrix at snapshot 95. The total duration of all three scenarios is 75 s with snapshots ranging from 1 to 1500.
 Special case: in the txt files, we set the Z-values of all ground vehicular trajectories to 0.
