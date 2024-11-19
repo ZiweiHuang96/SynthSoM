@@ -189,7 +189,6 @@ The SynthSoM dataset contains comprehensive scenario conditions, including multi
 |  Snowy day  |                     |              Low              |                    |   Massive MIMO   |
 
 **Table 2**. Comprehensive scenario conditions in the SynthSoM dataset.
-
 ![condition](./img/condition.png)
 **Figure 7**. Comprehensive conditions in the SynthSoM dataset taking the urban wide lane scenario as an example.
 
