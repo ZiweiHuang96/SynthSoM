@@ -1,16 +1,19 @@
 # **Overview**
 
-Given the importance of datasets for sensing-communication integration research, a novel simulation platform for constructing communication and multi-modal sensory dataset is developed. The developed platform integrates three high-precision software, i.e., AirSim, WaveFarer, and Wireless InSite, and further achieves in-depth integration and precise alignment of them. Based on
-the developed platform, a new synthetic intelligent multi-modal sensing-communication integration dataset for Synesthesia of
-Machines (SoM), named SynthSoM, is proposed, as shown in Fig. 1. The SynthSoM dataset contains various air-ground integration scenarios with
-comprehensive conditions, including multiple weather conditions, times of the day, intelligent agent densities, frequency bands,
-and antenna types. Furthermore, the SynthSoM dataset encompasses complete data modality, including radio-frequency (RF)
-channel large-scale and small-scale fading data, RF millimeter wave (mmWave) radar sensory data, and non-RF sensory data,
-e.g., RGB images, depth maps, and light detection and ranging (LiDAR) point clouds. The quality of SynthSoM dataset is
-validated via qualitative inspection and evaluation metrics through machine learning (ML) based on real-world measurements.
-The SynthSoM dataset is open-sourced and provides consistent data for cross-comparing different SoM-related algorithms.
+Given the importance of datasets for sensing-communication integration research, a novel simulation platform for constructing
+communication and multi-modal sensory dataset is developed. The developed platform integrates three high-precision software,
+i.e., AirSim, WaveFarer, and Wireless InSite, and further achieves in-depth integration and precise alignment of them. Based
+on the developed platform, a new synthetic intelligent multi-modal sensing-communication integration dataset for Synesthesia
+of Machines (SoM), named SynthSoM, is proposed. The SynthSoM dataset contains various air-ground multi-link cooperative
+scenarios with comprehensive conditions, including multiple weather conditions, times of the day, intelligent agent densities,
+frequency bands, and antenna types. The SynthSoM dataset encompasses multiple data modalities, including radio-frequency
+(RF) channel large-scale and small-scale fading data, RF millimeter wave (mmWave) radar sensory data, and non-RF sensory
+data, e.g., RGB images, depth maps, and light detection and ranging (LiDAR) point clouds. The quality of SynthSoM dataset
+is validated via statistics-based qualitative inspection and evaluation metrics through machine learning (ML) via real-world
+measurements. The SynthSoM dataset is open-sourced and provides consistent data for cross-comparing SoM-related
+algorithms.
 
-![Overview](Picture\Overview.jpeg)
+![Overview](img\overview.png)
 
 **Figure 1**. Framework of constructing the developed simulation platform for the generation of the SynthSoM dataset.
 
@@ -135,87 +138,50 @@ The SynthSoM dataset contains radio-frequency (RF) communication information, i.
 
 **Table 1**. Data modality in the SynthSoM dataset.
 
-
+ 
 
 ## **Scenarios**
 
-The SynthSoM dataset contains various air-ground integration scenarios, including UAV urban crossroad, UAV urban wide lane, UAV urban overpass, UAV suburban fork, UAV mountain road, vehicular urban crossroad, vehicular urban wide lane, vehicular urban overpass, vehicular suburban fork, and vehicular mountain road, as shown in Table 2 and Figs. 2-11.
-
-| **UAV scenarios** | **Vehicular scenarios** |
-| ----------------- | ----------------------- |
-| Urban crossroad   | Urban crossroad         |
-| Urban wide lane   | Urban wide lane         |
-| Urban overpass    | Urban overpass          |
-| Suburban fork     | Suburban fork           |
-| Mountain road     | Mountain road           |
-
-**Table 2**. Air-ground integration scenarios in the SynthSoM dataset.
-
-### **Scenario 1:** **UAV urban crossroad**
-
-![UAV urban crossroad](Picture\UAV urban crossroad.png)
-
-**Figure 2**. UAV urban crossroad scenario.
-
-### **Scenario** **2:** **UAV urban wide lane**
-
-![UAV urban wide lane](Picture\UAV urban wide lane.png)
-
-**Figure 3**. UAV urban wide lane scenario. 
-
-### **Scenario 3:** **UAV urban overpass**
-
-![UAV urban overpass](Picture\UAV urban overpass.png)
-
-**Figure 4**. UAV urban overpass scenario. 
-
-### **Scenario 4:** **UAV suburban fork**
+The SynthSoM dataset contains various air-ground multi-link cooperative
+scenarios, including urban crossroad, urban wide lane, urban overpass, suburban fork, and mountain road, as shown in Figs. 2-6.
 
 
-![UAV suburban fork](Picture\UAV suburban fork.png)
+### [**Scenario 1:** **Air-ground multi-link cooperative urban crossroad**](.\urban crossroad\README.md)
 
-**Figure 5**. UAV suburban fork scenario. 
+![urban crossroad](img\urban crossroad.png)
 
-### **Scenario 5:** **UAV mountain road**
+**Figure 2**. Air-ground multi-link cooperative urban crossroad scenario.
 
-![UAV mountain road](Picture\UAV mountain road.png)
+### [**Scenario** **2:** **Air-ground multi-link cooperative urban wide lane**](.\urban widelane\README.md)
 
-**Figure 6**. UAV mountain road scenario. 
+![urban wide lane](img\urban wide lane.png)
 
-### **Scenario 6:** **Vehicular urban crossroad**
+**Figure 3**. Air-ground multi-link cooperative urban wide lane scenario. 
+
+### [**Scenario 3:** **Air-ground multi-link cooperative urban overpass**](.\urban overpass\README.md)
+
+![overpass](img\overpass.png)
+
+**Figure 4**. Air-ground multi-link cooperative urban overpass scenario. 
+
+### [**Scenario 4:** **Air-ground multi-link cooperative suburban fork**](.\forking road\README.md)
 
 
-![Vehicular urban crossroad](Picture\Vehicular urban crossroad.png)
+![overpass](img\overpass.png)
 
-**Figure 7**. Vehicular urban crossroad scenario. 
+**Figure 5**. Air-ground multi-link cooperative suburban fork scenario. 
 
-### **Scenario 7:** **Vehicular urban wide lane**
+### [**Scenario 5:** **Air-ground multi-link cooperative mountain road**](.\mountain road\README.md)
 
-![Vehicular urban wide lane](Picture\Vehicular urban wide lane.png)
+![mountain road](img\mountain road.png)
 
-**Figure 8**. Vehicular urban wide lane scenario. 
+**Figure 6**. Air-ground multi-link cooperative mountain road scenario. 
 
-### **Sceanrio 8:** **Vehicular urban overpass**
 
-![Vehicular urban overpass](Picture\Vehicular urban overpass.jpeg)
-
-**Figure 9**. Vehicular urban overpass scenario. 
-
-### **Sceanrio 9:** **Vehicular suburban fork**
-
-![Vehicular suburban fork](Picture\Vehicular suburban fork.png)
-
-**Figure 10**. Vehicular suburban fork scenario.
-
-### **Sceanrio 10:** **Vehicular mountain road**
-
-![Vehicular mountain road](Picture\Vehicular mountain road.png)
-
-**Figure 11**. Vehicular mountain road scenario.
 
 ## **Scenario Conditions**
 
-The SynthSoM dataset contains comprehensive scenario conditions, including multiple weather conditions, times of the day, intelligent agent densities, frequency bands, and antenna types, as shown in Table 3 and Fig. 12.
+The SynthSoM dataset contains comprehensive scenario conditions, including multiple weather conditions, times of the day, intelligent agent densities, frequency bands, and antenna types, as shown in Table 2 and Fig. 7.
 
 | **Weather** | **Time of the day** | **Intelligent agent density** | **Frequency band** | **Antenna type** |
 | :---------: | :-----------------: | :---------------------------: | :----------------: | :--------------: |
@@ -223,19 +189,21 @@ The SynthSoM dataset contains comprehensive scenario conditions, including multi
 |  Rainy day  |        Night        |            Medium             |       mmWave       |       MIMO       |
 |  Snowy day  |                     |              Low              |                    |   Massive MIMO   |
 
-**Table 3**. Comprehensive scenario conditions in the SynthSoM dataset.
+**Table 2**. Comprehensive scenario conditions in the SynthSoM dataset.
 
-![Scenario Conditions](Picture\Scenario Conditions.jpeg)
+![condition](img\condition.png)
 
-**Figure 12**. Comprehensive conditions in the SynthSoM dataset taking the vehicular urban wide lane scenario as an example. (a) Sunny day. (b) Rainy day. (c) Snowy day. (d) Morning. (e) Night. (f) High intelligent agent density. (g) Medium intelligent agent density. (h) Low intelligent agent density. (i) Propagation path in sub-6 GHz band. (j) Propagation path in mmWave band. (k) Propagation path in SISO condition. (l) Propagation path in MIMO condition. (m) Propagation path in massive MIMO condition.
+**Figure 7**. Comprehensive conditions in the SynthSoM dataset taking the urban wide lane scenario as an example.
 
 ## **Data Directory Hierarchy and Content**
 
-![Data Directory Hierarchy](Picture\Data Directory Hierarchy.jpeg)
+The data directory hierarchy and content of the SynthSoM dataset are shown in Fig. 8
 
-**Figure 13**. The data directory hierarchy and content of the SynthSoM dataset.
+![Data Directory Hierarchy](img\data directory hierarchy.png)
 
-To utilize the SynthSoM dataset for communication and multi-modal sensing tasks, we divide the SynthSoM dataset into ten folders according to different scenarios. The scenario folder contains different conditions, and further contains different data modalities, i.e., RF sensory data, non-RF sensory data, and RF communication data. The data directory hierarchy and content are shown in Fig. 13. For convenience, the SynthSoM dataset is fully open-sourced.
+**Figure 8**. The data directory hierarchy and content of the SynthSoM dataset.
+
+To utilize the SynthSoM dataset for comm        unication and multi-modal sensing tasks, we divide the SynthSoM dataset into five folders according to different scenarios. The scenario folder contains different conditions, and further contains different data modalities, i.e., RF sensory data, non-RF sensory data, and RF communication data. For convenience, the SynthSoM dataset is fully open-sourced.
 
 ## **Dataset Listing**
 
@@ -243,7 +211,7 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 
 ### 	○ RGB camera
 
-​	The parameters of the vehicle/roadside facility (RSF)-mounted RGB camera are the same for all scenarios. Detailed parameters of RGB camera are listed in Table 4.
+​	The parameters of the intelligent agent/roadside facility (RSF)-mounted RGB camera are the same for all scenarios. Detailed parameters of RGB camera are listed in Table 3.
 
 | **Parameters**            | **Value** |
 | ------------------------- | --------- |
@@ -258,11 +226,11 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 | TargetGamma               | 1.0       |
 | OrthoWidth                | 5.12      |
 
-**Table 4**. Parameters of vehicle/RSF-mounted RGB camera.
+**Table 3**. Parameters of intelligent agent/RSF-mounted RGB camera.
 
 ### 	○ Depth camera
 
-​	The parameters of the vehicle/RSF-mounted depth camera are the same for all scenarios. Detailed parameters of depth camera are listed in Table 5.
+​	The parameters of the intelligent agent/RSF-mounted depth camera are the same for all scenarios. Detailed parameters of depth camera are listed in Table 4.
 
 | **Parameters**   | **Value**                     |
 | ---------------- | ----------------------------- |
@@ -274,37 +242,37 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 | TargetGamma      | 1.0                           |
 | OrthoWidth       | 5.12                          |
 
-**Table 5**. Parameters of vehicle/RSF-mounted depth camera.
+**Table 4**. Parameters of intelligent agent/RSF-mounted depth camera.
 
 ### 	○  LiDAR
 
-​	The parameters of the vehicle-mounted LiDAR are the same for all scenarios. Detailed parameters of vehicle-mounted LiDAR are listed in Table 6.
+​	The parameters of the intelligent agent-mounted LiDAR are the same for all scenarios. Detailed parameters of intelligent agent-mounted LiDAR are listed in Table 5.
 
 | **Parameters**     | **Value** |
 | ------------------ | --------- |
 | NumberOfChannels   | 16        |
 | PointsPerSecond    | 240000    |
 | RotationsPerSecond | 10        |
-| HorizontalFOVStart | -180      |
-| HorizontalFOVEnd   | 180       |
-| VerticalFOVUpper   | 15        |
-| VerticalFOVLower   | -25       |
+| HorizontalFOVStart | -180°     |
+| HorizontalFOVEnd   | 180°      |
+| VerticalFOVUpper   | 15°       |
+| VerticalFOVLower   | -25°      |
 
-**Table 6**. Parameters of vehicle-mounted LiDAR.
+**Table 5**. Parameters of intelligent agent-mounted LiDAR.
 
-​	The parameters of the RSF-mounted LiDAR are the same for all scenarios. Detailed parameters of RSF-mounted LiDAR are listed in Table 7.
+​	The parameters of the RSF-mounted LiDAR are the same for all scenarios. Detailed parameters of RSF-mounted LiDAR are listed in Table 6.
 
 | **Parameters**     | **Value** |
 | ------------------ | --------- |
 | NumberOfChannels   | 64        |
 | PointsPerSecond    | 640000    |
 | RotationsPerSecond | 10        |
-| HorizontalFOVStart | -90       |
-| HorizontalFOVEnd   | 90        |
-| VerticalFOVUpper   | 15        |
-| VerticalFOVLower   | -25       |
+| HorizontalFOVStart | -90°      |
+| HorizontalFOVEnd   | 90°       |
+| VerticalFOVUpper   | 15°       |
+| VerticalFOVLower   | -25°      |
 
-**Table 7**. Parameters of RSF-mounted LiDAR.
+**Table 6**. Parameters of RSF-mounted LiDAR.
 
 
 
@@ -316,7 +284,7 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 
 ### 	○ Parameter setting
 
-​	The maximum detection range of a single radar device is 74.9 m with a range resolution of 0.1499 m. The Doppler velocity range is ±47.42 m/s with a resolution of 0.939 m/s. The horizontal FoV is 90 degrees (3 dB attenuation) and the vertical FoV is 20 degrees (3 dB attenuation). Detailed parameters of mmWave radar are listed in Table 8.
+​	The maximum detection range of a single radar device is 74.9 m with a range resolution of 0.1499 m. The Doppler velocity range is ±47.42 m/s with a resolution of 0.939 m/s. The horizontal FoV is 90 degrees (3 dB attenuation) and the vertical FoV is 20 degrees (3 dB attenuation). Detailed parameters of mmWave radar are listed in Table 7.
 
 | **Parameters**             | **Value** |
 | -------------------------- | --------- |
@@ -330,13 +298,13 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 | Last sample                | 7 μs      |
 | Number of samples          | 1000      |
 
-**Table 8**. Parameters of vehicle/RSF-mounted mmWave radar.
+**Table 7**. Parameters of intelligent agent/RSF-mounted mmWave radar.
 
 
 
 ### ● Communication data in Wireless InSite
 
-Detailed parameters of communication equipment are listed in Table 9.
+Detailed parameters of communication equipment are listed in Table 8.
 
 | **Parameters**                                               | **Value**                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -348,4 +316,4 @@ Detailed parameters of communication equipment are listed in Table 9.
 | Sub-6 GHz: 5.9 GHz carrier frequency with 20 MHz communication bandwidth |                                                              |
 | Waveform                                                     | Sinusoid                                                     |
 
-**Table 9**. Parameters of vehicle/RSF-mounted communication equipment.# SynthSoM_2
+**Table 8**. Parameters of intelligent agent/RSF-mounted communication equipment.

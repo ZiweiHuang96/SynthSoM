@@ -1,4 +1,4 @@
-# Air-ground multi-inkcooperative suburban fork scenario
+# Air-ground Multi-link Cooperative Suburban Fork Scenario
 <img src="./img/Scene Overview forking road.png" alt="Display image of subruban fork scene" width="500" height="">
 
 ## Description
@@ -7,11 +7,11 @@ The scenario contains 9 roadside facilities (RSFs) and a fork in the road. The v
 A more detailed description of our dataset is given as follows. 
 
 Special case: in the txt files, we set the Z-values of all ground vehicular trajectories to 0.
-
+ 
 
 
 ## Data Collected by Vehicle
-
+ 
 <details>
 <summary><strong>Coordinate System Description</strong></summary>
 
@@ -120,7 +120,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>-90~90</td>
     </tr>
     <tr>
-      <td><img src="img/Car_SUV_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
+      <td><img src="img/Car_suv_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
       <td>Blue SUV</td>
       <td>+x</td>
       <td>2</td>
@@ -252,7 +252,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>-90~90</td>
     </tr>
     <tr>
-      <td><img src="img/SUV-2.png" alt="Side view of SUV-2" width="100"></td>
+      <td><img src="img/suv-2.png" alt="Side view of SUV-2" width="100"></td>
       <td>Subcompact SUV</td>
       <td>+x</td>
       <td>1.8</td>
@@ -305,7 +305,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>X</td>
     </tr>
     <tr>
-      <td><img src="img/Car_SUV_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
+      <td><img src="img/Car_suv_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
       <td>Blue SUV</td>
       <td>0.8</td>
       <td>0</td>
@@ -347,7 +347,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>X</td>
     </tr>
     <tr>
-      <td><img src="img/SUV-2.png" alt="Side view of SUV-2" width="100"></td>
+      <td><img src="img/suv-2.png" alt="Side view of SUV-2" width="100"></td>
       <td>Subcompact SUV</td>
       <td>0.8</td>
       <td>0</td>
@@ -465,7 +465,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
 
 **Pitch, Roll, Yaw:** These three parameters describe the three rotational angles of the sensor in the vehicle coordinate system, with the unit in degrees. Pitch represents the pitch angle, Roll represents the roll angle, and Yaw represents the yaw angle. They define the spatial attitude of the sensor.
 
-**Field of View(FoV) Degrees(°):** This parameter gives the total field of view angle of the sensor, with the unit in degrees. It reflects the range of the scene that the sensor can perceive.
+**Field of View (FoV) Degrees(°):** This parameter gives the total field of view angle of the sensor, with the unit in degrees. It reflects the range of the scene that the sensor can perceive.
 
 **Vertical FoV(°):** This parameter gives the vertical field of view angle of the sensor, with the unit in degrees. It defines the sensor's perception range in the vertical direction.
 
@@ -476,13 +476,14 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
 <details>
 <summary><strong>Sensor Parameters</strong></summary>
 
+
 The camera and LiDAR sensors deployed on the vehicles in this scenario are of the same type. The specific sensor parameters are as follows:
 
 | **Camera RGB Sensor Parameters**    | **Value** |
 |-------------------------------------|-----------|
 | **Width**                           | 1920      |
 | **Height**                          | 1080      |
-| **FOV**                             | 100。      |
+| **FOV**                             | 100°      |
 | **AutoExpcosureSpeed**              | 100       |
 | **AutoExposureBias**                | 0         |
 | **AutoExposureMaxBrightness**       | 0.64      |
@@ -494,19 +495,19 @@ The camera and LiDAR sensors deployed on the vehicles in this scenario are of th
 |------------------------------------|-------------------------------|
 | **Width**                          | 1920                          |
 | **Height**                         | 1080                          |
-| **FOV**                            | 100。                          |
+| **FOV**                            | 100°                          |
 | **MotionBlurAmount**               | 0                             |
 | **Image Type**                     | DepthPlanner/DepthPerspective |
 | **TargetGamma**                    | 1.0                           |
 | **OrthoWidth**                     | 5.12                          |
 
-| **LiDAR Sensor Parameters** |  **Value**  |
+| **LiDAR Sensor Parameters** |  **Value** |
 |-----------------------------|-------|
 | **NumberOfChannels**        | 16    |
-| **HorizontalFOVStart**      | -180  |
-| **HorizontalFOVEnd**        | 180   |
-| **VerticalFOVUpper**        | 15    |
-| **VerticalFOVLower**        | -25   |
+| **HorizontalFOVStart**      | -180°  |
+| **HorizontalFOVEnd**        | 180°   |
+| **VerticalFOVUpper**        | 15°   |
+| **VerticalFOVLower**        | -25°  |
 
 
 The camera and LiDAR sensors deployed on the RSFs in this scenario are also of the same type. The specific sensor parameters are as follows:
@@ -515,7 +516,7 @@ The camera and LiDAR sensors deployed on the RSFs in this scenario are also of t
 |-------------------------------------|-----------|
 | **Width**                           | 1920      |
 | **Height**                          | 1080      |
-| **FOV**                             | 100。      |
+| **FOV**                             | 100°      |
 | **AutoExpcosureSpeed**              | 100       |
 | **AutoExposureBias**                | 0         |
 | **AutoExposureMaxBrightness**       | 0.64      |
@@ -527,7 +528,7 @@ The camera and LiDAR sensors deployed on the RSFs in this scenario are also of t
 |------------------------------------|-------------------------------|
 | **Width**                          | 1920                          |
 | **Height**                         | 1080                          |
-| **FOV**                            | 100。                          |
+| **FOV**                            | 100°                          |
 | **MotionBlurAmount**               | 0                             |
 | **Image Type**                     | DepthPlanner/DepthPerspective |
 | **TargetGamma**                    | 1.0                           |
@@ -536,10 +537,44 @@ The camera and LiDAR sensors deployed on the RSFs in this scenario are also of t
 | **LiDAR Sensor Parameters** | **Value** |
 |-----------------------------|-----------|
 | **NumberOfChannels**        | 64        |
-| **HorizontalFOVStart**      | -180      |
-| **HorizontalFOVEnd**        | 180       |
-| **VerticalFOVUpper**        | 0         |
-| **VerticalFOVLower**        | -40       |
+| **HorizontalFOVStart**      | -180°     |
+| **HorizontalFOVEnd**        | 180°      |
+| **VerticalFOVUpper**        | 0°        |
+| **VerticalFOVLower**        | -40°      |
+
+
+The mmWave radar deployed on the vehicles and RSFs in this scenario are of the same type. The specific sensor parameters are as follows:
+
+| **Parameters**             | **Value** |
+| -------------------------- | --------- |
+| **MIMO Antenna**            | 4 transmitter (Tx) & 3 receiver (Rx)    |
+| **StartFrequency**            | 77 GHz    |
+| **StopFrequency**             | 81 GHz    |
+| **NumberOfChirpsPerFrame** | 101       |
+| **ChirpLength**               | 20 μs     |
+| **ResetTimeBetweenChirps**  | 0 μs      |
+| **FirstSample**               | 2 μs      |
+| **SampleSpacing**             | 5 ns      |
+| **LastSample**                | 7 μs      |
+| **NumberOfSamples**          | 1000      |
+|**MaximumDetectionRange**     | 74.9 m|
+|**RangeResolution**           |0.1499 m|
+|**DopplerVelocityRange**      | ±47.42 m/s|
+|**DopplerVelocityResolution** | 0.939 m/s|
+| **HorizontalFOVStart**      | -45°      |
+| **HorizontalFOVEnd**        | 45°       |
+| **VerticalFOVUpper**        | 10°         |
+| **VerticalFOVLower**        | -10°       |
+
+Detailed parameters of communication equipment are listed as follows.
+
+| **Parameters**                                               | **Value**                                                                                                                                          |
+| ------------------------------------------------------------ |----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Antenna type                                                 | SISO (1 antenna at Tx & 1 antenna at Rx)   <br /> MIMO (4 antennas at Tx & 4 antennas at Rx)  <br/> Massive MIMO (128 antennas at Tx & 32 antennas at Rx)                                                |
+| Antenna element spacing                                      | Half wavelength                                                                                                                                    |
+| Frequency band                                               | mmWave: 28 GHz carrier frequency with 2 GHz communication bandwidth <br/> Sub-6 GHz: 5.9 GHz carrier frequency with 20 MHz communication bandwidth |                                                              |
+| Waveform                                                     | Sinusoid                                                                                                                                           |
+
 </details><br/>
 
 <details>
@@ -652,7 +687,7 @@ The deployment of RSFs is the same across different traffic density scenarios, a
 </details><br/>
 
 <details>
-<summary><strong>Correspondence between vehicle types and Car ID under different intelligent agent densities</strong></summary>
+<summary><strong>Correspondence Between Vehicle Types and Car ID</strong></summary>
  
 
 <table>
@@ -778,10 +813,10 @@ We sort out the valid simulation intervals of each car in this scene as follows.
 
 
 ## **Data Collected by UAV**
-
+ 
 <details>
 <summary><strong>Coordinate System Description</strong></summary>
-
+ 
 #### **[World Coordinate System]:**
 The world coordinate system is a North-East-Down (NED) coordinate system with the X-axis pointing north, the Y-axis pointing east, and the Z-axis pointing downward. It is a right-handed coordinate system, with the origin at the same height as the ground.
 
@@ -886,7 +921,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>-90~90</td>
     </tr>
     <tr>
-      <td><img src="img/Car_SUV_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
+      <td><img src="img/Car_suv_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
       <td>Blue SUV</td>
       <td>+x</td>
       <td>2</td>
@@ -1018,7 +1053,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>-90~90</td>
     </tr>
     <tr>
-      <td><img src="img/SUV-2.png" alt="Side view of SUV-2" width="100"></td>
+      <td><img src="img/suv-2.png" alt="Side view of SUV-2" width="100"></td>
       <td>Subcompact SUV</td>
       <td>+x</td>
       <td>1.8</td>
@@ -1072,7 +1107,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>X</td>
     </tr>
     <tr>
-      <td><img src="img/Car_SUV_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
+      <td><img src="img/Car_suv_blue.png" alt="Side view of car_SUV_blue" width="100"></td>
       <td>Blue SUV</td>
       <td>0.8</td>
       <td>0</td>
@@ -1114,7 +1149,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
       <td>X</td>
     </tr>
     <tr>
-      <td><img src="img/SUV-2.png" alt="Side view of SUV-2" width="100"></td>
+      <td><img src="img/suv-2.png" alt="Side view of SUV-2" width="100"></td>
       <td>Subcompact SUV</td>
       <td>0.8</td>
       <td>0</td>
@@ -1155,7 +1190,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
     </thead>
     <tbody>
         <tr>
-        <td><img src="./img/drone/drone.png" alt="Side view of UAV" width="100"></td>
+        <td><img src="./img/drone.png" alt="Side view of UAV" width="100"></td>
         <td>UAV</td>
         <td>+x</td>
         <td>4</td>
@@ -1313,7 +1348,7 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
 
 **Pitch, Roll, Yaw:** These three parameters describe the three rotational angles of the sensor in the vehicle coordinate system, with the unit in degrees. Pitch represents the pitch angle, Roll represents the roll angle, and Yaw represents the yaw angle. They define the spatial attitude of the sensor.
 
-**Field of View(FoV) Degrees(°):** This parameter gives the total field of view angle of the sensor, with the unit in degrees. It reflects the range of the scene that the sensor can perceive.
+**Field of View (FoV) Degrees(°):** This parameter gives the total field of view angle of the sensor, with the unit in degrees. It reflects the range of the scene that the sensor can perceive.
 
 **Vertical FoV(°):** This parameter gives the vertical field of view angle of the sensor, with the unit in degrees. It defines the sensor's perception range in the vertical direction.
 
@@ -1323,14 +1358,13 @@ The scenario includes vehicles of the **"Semi Truck"**, **"Pickup"**, **"Blue SU
 <details>
 <summary><strong>Sensor Parameters</strong></summary>
  
-
 The camera and LiDAR sensors deployed on the vehicles in this scenario are of the same type. The specific sensor parameters are as follows:
 
 | **Camera RGB Sensor Parameters**    | **Value** |
 |-------------------------------------|-----------|
 | **Width**                           | 1920      |
 | **Height**                          | 1080      |
-| **FOV**                             | 100。      |
+| **FOV**                             | 100°      |
 | **AutoExpcosureSpeed**              | 100       |
 | **AutoExposureBias**                | 0         |
 | **AutoExposureMaxBrightness**       | 0.64      |
@@ -1342,7 +1376,7 @@ The camera and LiDAR sensors deployed on the vehicles in this scenario are of th
 |------------------------------------|-------------------------------|
 | **Width**                          | 1920                          |
 | **Height**                         | 1080                          |
-| **FOV**                            | 100。                          |
+| **FOV**                            | 100°                          |
 | **MotionBlurAmount**               | 0                             |
 | **Image Type**                     | DepthPlanner/DepthPerspective |
 | **TargetGamma**                    | 1.0                           |
@@ -1351,11 +1385,10 @@ The camera and LiDAR sensors deployed on the vehicles in this scenario are of th
 | **LiDAR Sensor Parameters** |  **Value**  |
 |-----------------------------|-------|
 | **NumberOfChannels**        | 16    |
-| **HorizontalFOVStart**      | -180  |
-| **HorizontalFOVEnd**        | 180   |
-| **VerticalFOVUpper**        | 15    |
-| **VerticalFOVLower**        | -25   |
-
+| **HorizontalFOVStart**      | -180°  |
+| **HorizontalFOVEnd**        | 180°   |
+| **VerticalFOVUpper**        | 15°    |
+| **VerticalFOVLower**        | -25°   |
 
 The camera and LiDAR sensors deployed on the UAVs in this scenario are of the same type. The specific sensor parameters are as follows:
 
@@ -1363,7 +1396,7 @@ The camera and LiDAR sensors deployed on the UAVs in this scenario are of the sa
 |-------------------------------------|-----------|
 | **Width**                           | 1920      |
 | **Height**                          | 1080      |
-| **FOV**                             | 100。      |
+| **FOV**                             | 100°      |
 | **AutoExpcosureSpeed**              | 100       |
 | **AutoExposureBias**                | 0         |
 | **AutoExposureMaxBrightness**       | 0.64      |
@@ -1371,44 +1404,44 @@ The camera and LiDAR sensors deployed on the UAVs in this scenario are of the sa
 | **MotionBlurAmount**                | 0         |
 | **TargetGamma**                     | 1.0       |
 
- | **Camera Depth Sensor Parameters** | **Value**                     |
-|------------------------------------|-------------------------------|
-| **Width**                          | 1920                          |
-| **Height**                         | 1080                          |
-| **FOV**                            | 100。                          |
-| **MotionBlurAmount**               | 0                             |
+ | **Camera Depth Sensor Parameters** | **Value**                    |
+|------------------------------------|------------------------------|
+| **Width**                          | 1920                         |
+| **Height**                         | 1080                         |
+| **FOV**                            | 100°                          |
+| **MotionBlurAmount**               | 0                            |
 | **Image Type**                     | DepthPlanner/DepthPerspective |
-| **TargetGamma**                    | 1.0                           |
-| **OrthoWidth**                     | 5.12                          |
+| **TargetGamma**                    | 1.0                          |
+| **OrthoWidth**                     | 5.12                         |
 
 | **LiDAR Sensor Parameters** | **Value** |
 |-----------------------------|-----------|
 | **NumberOfChannels**        | 16        |
-| **HorizontalFOVStart**      | -180      |
-| **HorizontalFOVEnd**        | 180       |
-| **VerticalFOVUpper**        | 0         |
-| **VerticalFOVLower**        | -75       |
+| **HorizontalFOVStart**      | -180°      |
+| **HorizontalFOVEnd**        | 180°       |
+| **VerticalFOVUpper**        | 0°         |
+| **VerticalFOVLower**        | -75°       |
 
 
 The camera and LiDAR sensors deployed on the RSFs in this scenario are also of the same type. The specific sensor parameters are as follows:
 
 | **Camera RGB Sensor Parameters**    | **Value** |
-|-------------------------------------|-----------|
-| **Width**                           | 1920      |
-| **Height**                          | 1080      |
-| **FOV**                             | 100。      |
-| **AutoExpcosureSpeed**              | 100       |
-| **AutoExposureBias**                | 0         |
-| **AutoExposureMaxBrightness**       | 0.64      |
-| **AutoExposureMinBrightness**       | 0.03      |
-| **MotionBlurAmount**                | 0         |
-| **TargetGamma**                     | 1.0       |
+|-------------------------------------|----------|
+| **Width**                           | 1920     |
+| **Height**                          | 1080     |
+| **FOV**                             | 100°      |
+| **AutoExpcosureSpeed**              | 100      |
+| **AutoExposureBias**                | 0        |
+| **AutoExposureMaxBrightness**       | 0.64     |
+| **AutoExposureMinBrightness**       | 0.03     |
+| **MotionBlurAmount**                | 0        |
+| **TargetGamma**                     | 1.0      |
 
  | **Camera Depth Sensor Parameters** | **Value**                     |
 |------------------------------------|-------------------------------|
 | **Width**                          | 1920                          |
 | **Height**                         | 1080                          |
-| **FOV**                            | 100。                          |
+| **FOV**                            | 100°                          |
 | **MotionBlurAmount**               | 0                             |
 | **Image Type**                     | DepthPlanner/DepthPerspective |
 | **TargetGamma**                    | 1.0                           |
@@ -1417,10 +1450,73 @@ The camera and LiDAR sensors deployed on the RSFs in this scenario are also of t
 | **LiDAR Sensor Parameters** | **Value** |
 |-----------------------------|-----------|
 | **NumberOfChannels**        | 64        |
-| **HorizontalFOVStart**      | -180      |
-| **HorizontalFOVEnd**        | 180       |
-| **VerticalFOVUpper**        | 0         |
-| **VerticalFOVLower**        | -40       |
+| **HorizontalFOVStart**      | -180°     |
+| **HorizontalFOVEnd**        | 180°      |
+| **VerticalFOVUpper**        | 0°        |
+| **VerticalFOVLower**        | -40°      |
+
+
+The mmWave radar deployed on UAVs in this scenario are of the same type. The specific sensor parameters are as follows:
+
+
+
+| **Parameters**             | **Value** |
+| -------------------------- | --------- |
+| **SISO Antenna**            | 1 transmitter (Tx) & 1 receiver (Rx)    |
+| **StartFrequency**            | 77 GHz    |
+| **StopFrequency**             | 81 GHz    |
+| **NumberOfChirpsPerFrame** | 101       |
+| **ChirpLength**               | 20 μs     |
+| **ResetTimeBetweenChirps**  | 0 μs      |
+| **FirstSample**               | 2 μs      |
+| **SampleSpacing**             | 2.5 ns      |
+| **LastSample**                | 4.5 μs      |
+| **NumberOfSamples**          | 1000      |
+|**MaximumDetectionRange**     | 149.9 m|
+|**RangeResolution**           |0.2997 m|
+|**DopplerVelocityRange**      | ±47.42 m/s|
+|**DopplerVelocityResolution** | 0.939 m/s|
+| **HorizontalFOVStart**      | -45°      |
+| **HorizontalFOVEnd**        | 45°       |
+| **VerticalFOVUpper**        | 45°         |
+| **VerticalFOVLower**        | -45°       |
+
+
+
+The mmWave radar deployed on the vehicles and RSFs in this scenario are of the same type. The specific sensor parameters are as follows:
+
+
+
+| **Parameters**             | **Value** |
+| -------------------------- | --------- |
+| **MIMO Antenna**            | 4 transmitter (Tx) & 3 receiver (Rx)    |
+| **StartFrequency**            | 77 GHz    |
+| **StopFrequency**             | 81 GHz    |
+| **NumberOfChirpsPerFrame** | 101       |
+| **ChirpLength**               | 20 μs     |
+| **ResetTimeBetweenChirps**  | 0 μs      |
+| **FirstSample**               | 2 μs      |
+| **SampleSpacing**             | 5 ns      |
+| **LastSample**                | 7 μs      |
+| **NumberOfSamples**          | 1000      |
+|**MaximumDetectionRange**     | 74.9 m|
+|**RangeResolution**           |0.1499 m|
+|**DopplerVelocityRange**      | ±47.42 m/s|
+|**DopplerVelocityResolution** | 0.939 m/s|
+| **HorizontalFOVStart**      | -45°      |
+| **HorizontalFOVEnd**        | 45°       |
+| **VerticalFOVUpper**        | 10°         |
+| **VerticalFOVLower**        | -10°       |
+
+Detailed parameters of communication equipment are listed as follows.
+
+| **Parameters**                                               | **Value**                                                                                                                                          |
+| ------------------------------------------------------------ |----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Antenna type                                                 | SISO (1 antenna at Tx & 1 antenna at Rx)   <br /> MIMO (4 antennas at Tx & 4 antennas at Rx)  <br/> Massive MIMO (128 antennas at Tx & 32 antennas at Rx)                                                |
+| Antenna element spacing                                      | Half wavelength                                                                                                                                    |
+| Frequency band                                               | mmWave: 28 GHz carrier frequency with 2 GHz communication bandwidth <br/> Sub-6 GHz: 5.9 GHz carrier frequency with 20 MHz communication bandwidth |                                                              |
+| Waveform                                                     | Sinusoid                                                                                                                                           |
+
 </details><br/>
 
 <details>
@@ -1533,7 +1629,7 @@ The deployment of RSFs is the same across different traffic density scenarios, a
 </details><br/>
 
 <details>
-<summary><strong>Correspondence between vehicle types and Car ID under different intelligent agent densities</strong></summary>
+<summary><strong>Correspondence Between Vehicle Types and Car ID</strong></summary>
  
 
 <table>
