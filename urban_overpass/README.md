@@ -1759,7 +1759,7 @@ Detailed parameters of communication equipment are listed as follows.
 </details><br/>
 
 <details>
-<summary><strong>RSF position</strong></summary>
+<summary><strong>RSF Position</strong></summary>
 
 The deployment of RSFs is the same across different traffic density scenarios, and the table below describes the positions of RSFs in each scenario.
 
