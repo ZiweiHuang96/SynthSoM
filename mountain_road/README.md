@@ -240,7 +240,7 @@ The scenario includes vehicles of the **"Blue SUV"** type. The relative coordina
 </details><br/>
 
 <details>
-<summary><strong>Sensor Parameters</strong></summary>
+<summary><strong>Sensor Parameter</strong></summary>
  
 
 The camera and LiDAR sensors deployed on the vehicles in this scenario are of the same type. The specific sensor parameters are as follows:
@@ -846,7 +846,7 @@ The scenario includes vehicles of the **"Blue SUV"** type. The relative coordina
 
 <details>
 
-<summary><strong>Sensor Parameters</strong></summary>
+<summary><strong>Sensor Parameter</strong></summary>
 
 The camera and LiDAR sensors deployed on the vehicles in this scenario are of the same type. The specific sensor parameters are as follows:
 
