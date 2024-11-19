@@ -1,4 +1,4 @@
-# Air-Ground Multi-link Cooperative Mountain Road Scenario
+# Air-Ground Multi-Link Cooperative Mountain Road Scenario
 <img src="./img/Scene Overview mountain road.png" alt="Display image of mountain road scene" width="800" height="">
 
 ## Description
