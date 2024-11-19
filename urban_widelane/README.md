@@ -1,4 +1,4 @@
-#  Air-ground multi-link cooperative urban wide lane scenario
+#  Air-Ground Multi-Link Cooperative Urban Wide Lane Scenario
 <img src="./img/Scene Overview urban widelane.png" alt="Display image of mountain road scene" width="500" height="">
 
 The scenario contains 12 roadside facilities (RSFs) and many tall  buildings. The vehicle and UAV are equipped with communication devices and multi-modal sensors, including three cameras, two types of depth cameras (three each), and a LiDAR. The time interval between adjacent snapshots is 50 ms and the frame rate of the multi-modal sensory data at the vehicle is 20 Hz. The frame rate of the communication data is also 20 Hz. The snapshots corresponding to all data are reflected in the filenames, such as "snapshot91_pointcloud.txt" for LiDAR point cloud data at snapshot 91 and "csi_95.mat" for the chanenl matrix at snapshot 95. The total duration of all three scenarios is 75 s with snapshots ranging from 1 to 1500.
