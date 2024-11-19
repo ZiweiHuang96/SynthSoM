@@ -81,7 +81,7 @@ algorithms.
 
 ​	○ **Verify the installation**
 
-​	Check for an `Airsim` folder in the `Documents` directory containing a `settings.json` file.
+​	Check for an `AirSim` folder in the `Documents` directory containing a `settings.json` file.
 
 ●  **Configure Unreal Engine for AirSim**
 
