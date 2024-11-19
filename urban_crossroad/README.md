@@ -1,4 +1,4 @@
-#  Air-ground multi-link cooperative urban crossroad scenario
+#  Air-Ground multi-link cooperative urban crossroad scenario
 
 ![Scene overview urban crossroad](img\scene overview urban crossroad.png)
 
