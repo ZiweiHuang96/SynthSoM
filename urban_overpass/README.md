@@ -476,7 +476,7 @@ The vehicular urban wide lane scenario includes vehicles of the **"Blue SUV"**, 
 </details><br/>
 
 <details>
-<summary><strong>Sensor Parameters</strong></summary>
+<summary><strong>Sensor Parameter</strong></summary>
  
 
 The camera and LiDAR sensors deployed on the vehicles in this scenario are of the same type. The specific sensor parameters are as follows:
@@ -1584,7 +1584,7 @@ The includes vehicles of the **"Blue SUV"**, **"Mini Cooper"**, **"Sedan"**, **"
 </details><br/>
 
 <details>
-<summary><strong>Sensor Parameters</strong></summary>
+<summary><strong>Sensor Parameter</strong></summary>
  
 
 The camera and LiDAR sensors deployed on the vehicles in this scenario are of the same type. The specific sensor parameters are as follows:
