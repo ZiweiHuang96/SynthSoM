@@ -111,7 +111,7 @@ Download the MATLAB Runtime installation package from https://support.remcom.com
 
 ●  **Install the "Generate Range-Doppler" script**
 
-Download the "generate-range-doppler.zip" script package from "https://support.remcom .com/wavefarer/scripts/generate-range-doppler.html". Then unzip the folder to the same Macros folder as which in step 4.
+Download the "generate-range-doppler.zip" script package from "https://support.remcom.com/wavefarer/scripts/generate-range-doppler.html". Then unzip the folder to the same Macros folder as which in step 4.
 
 
 
