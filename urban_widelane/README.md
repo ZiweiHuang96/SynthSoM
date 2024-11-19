@@ -34,7 +34,7 @@ The coordinate axes align with those of the vehicle system, with the origin offs
 </details><br/>
 
 <details>
-<summary><strong>Sensor Positionn</strong></summary>
+<summary><strong>Sensor Position</strong></summary>
 
 The scenario includes vehicles with **"Blue SUV"**, **"Mini Cooper"**, **"Sedan"**, **"Pickup"**, **"Box truck"**, **"Concrete"**, **"Refuse truck"**, **"School bus"** and **"Tank"** types. The relative coordinate positions and parameter information of the sensors are given as follows: 
  
@@ -579,7 +579,7 @@ Detailed parameters of communication equipment are listed as follows.
 </details><br/>
 
 <details>
-<summary><strong>RSF position</strong></summary>
+<summary><strong>RSF Position</strong></summary>
 
 
 The deployment of RSFs is the same across different traffic density scenarios, and the table below describes the positions of RSFs in each scenario.
