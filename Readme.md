@@ -11,7 +11,7 @@ frequency bands, and antenna types. The SynthSoM dataset encompasses multiple da
 data, e.g., RGB images, depth maps, and light detection and ranging (LiDAR) point clouds. The quality of SynthSoM dataset
 is validated via statistics-based qualitative inspection and evaluation metrics through machine learning (ML) via real-world
 measurements. The SynthSoM dataset is open-sourced and provides consistent data for cross-comparing SoM-related
-algorithms. 1 2
+algorithms.
 
 ![Overview](./img/Overview.png)
 
