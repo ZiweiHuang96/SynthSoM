@@ -192,7 +192,6 @@ The SynthSoM dataset contains comprehensive scenario conditions, including multi
 **Table 2**. Comprehensive scenario conditions in the SynthSoM dataset.
 
 ![condition](./img/condition.png)
-
 **Figure 7**. Comprehensive conditions in the SynthSoM dataset taking the urban wide lane scenario as an example.
 
 ## **Data Directory Hierarchy and Content**
