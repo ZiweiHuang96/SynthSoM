@@ -735,7 +735,7 @@ The camera and LiDAR sensors deployed on the RSFs in this scenario are also of t
 <details>
 
 
-<summary><strong>RSF position</strong></summary>
+<summary><strong>RSF Position</strong></summary>
 
 
 The deployment of RSFs is the same across different traffic density scenarios, and the table below describes the positions of RSFs in each scenario.
