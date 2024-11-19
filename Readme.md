@@ -140,7 +140,7 @@ The SynthSoM dataset contains radio-frequency (RF) communication information, i.
 
  
 
-## **Scenarios**
+## **Scenario**
 
 The SynthSoM dataset contains various air-ground multi-link cooperative
 scenarios, including urban crossroad, urban wide lane, urban overpass, suburban fork, and mountain road, as shown in Figs. 2-6.
@@ -179,7 +179,7 @@ scenarios, including urban crossroad, urban wide lane, urban overpass, suburban 
 
 
 
-## **Scenario Conditions**
+## **Scenario Condition**
 
 The SynthSoM dataset contains comprehensive scenario conditions, including multiple weather conditions, times of the day, intelligent agent densities, frequency bands, and antenna types, as shown in Table 2 and Fig. 7.
 
