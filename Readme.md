@@ -166,7 +166,6 @@ scenarios, including urban crossroad, urban wide lane, urban overpass, suburban 
 
 ### [**Scenario 4:** **Air-ground multi-link cooperative suburban fork**](./forking_road/README.md)
 
-
 ![overpass](img/suburban_fork.png)
 
 **Figure 5**. Air-ground multi-link cooperative suburban fork scenario. 
