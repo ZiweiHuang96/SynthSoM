@@ -103,11 +103,11 @@ Place the license in a folder without Chinese characters in the path, then run W
 
 ●  **Install the "Create Linear Chirp Simulation" script**
 
-Download the scripts "Create Linear Chirp Simulation.xmacro" from https:// support.remcom.com/wavefarer/scripts/create-linear-chirp-simulation.html, then put it at the Macros folder, which you set at "Application Preferences" in WaveFarer. The Windows default location is C:\Users\{user-name}\Documents\Remcom\WaveFarer\scripts \menu\macros.
+Download the scripts "Create Linear Chirp Simulation.xmacro" from https://support.remcom.com/wavefarer/scripts/create-linear-chirp-simulation.html, then put it at the Macros folder, which you set at "Application Preferences" in WaveFarer. The Windows default location is C:\Users\{user-name}\Documents\Remcom\WaveFarer\scripts \menu\macros.
 
 ●  **Install the MATLAB runtime**
 
-Download the MATLAB Runtime installation package from https://support.remcom.com/ wavefarer/scripts/generate-range-doppler.html, then unzip and install.
+Download the MATLAB Runtime installation package from https://support.remcom.com/wavefarer/scripts/generate-range-doppler.html, then unzip and install.
 
 ●  **Install the "Generate Range-Doppler" script**
 
