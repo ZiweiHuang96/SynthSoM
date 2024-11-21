@@ -1078,7 +1078,7 @@ The deployment of RSFs is the same across different traffic density scenarios, a
 
 **Pitch, Roll, Yaw:** These three parameters describe the three rotational angles of the RSF in the scenario, with the unit in degrees. Pitch represents the pitch angle, Roll represents the roll angle, and Yaw represents the yaw angle. They define the spatial attitude of the RSF.
 
-![crossing_road_Overlook](img\crossing_road_overlook.png)
+![crossing_road_Overlook](img\crossing_road_Overlook.png)
 
 </details>
 
