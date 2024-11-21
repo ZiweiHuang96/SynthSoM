@@ -345,7 +345,7 @@ The deployment of RSFs is the same across different traffic density scenarios, a
 
 **Horizontal FoV(°):** This parameter gives the horizontal field of view angle of the sensor, with the unit in degrees. It defines the sensor's perception range in the horizontal direction.
 
-![crossing_road_Overlook](img\crossing_road_overlook.png)
+![crossing_road_Overlook](img\crossing_road_Overlook.png)
 
 </details><br/>
 
