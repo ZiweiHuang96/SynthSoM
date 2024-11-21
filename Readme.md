@@ -146,31 +146,31 @@ The SynthSoM dataset contains various air-ground multi-link cooperative
 scenarios, including urban crossroad, urban wide lane, urban overpass, suburban fork, and mountain road, as shown in Figs. 2-6.
 
 
-### [**Scenario 1:** **Air-ground multi-link cooperative urban crossroad**](./urban_crossroad/README.md)
+### [**Scenario 1:** **Air-Ground Multi-Link Cooperative Urban Crossroad**](./urban_crossroad/README.md)
 
 ![urban crossroad](img/urban_crossroad.png)
 
 **Figure 2**. Air-ground multi-link cooperative urban crossroad scenario.
 
-### [**Scenario** **2:** **Air-ground multi-link cooperative urban wide lane**](./urban_widelane/README.md)
+### [**Scenario** **2:** **Air-Ground Multi-link Cooperative Urban Wide Lane**](./urban_widelane/README.md)
 
 ![urban wide lane](img/urban_widelane.png)
 
 **Figure 3**. Air-ground multi-link cooperative urban wide lane scenario. 
 
-### [**Scenario 3:** **Air-ground multi-link cooperative urban overpass**](./urban_overpass/README.md)
+### [**Scenario 3:** **Air-Ground Multi-Link Cooperative Urban Overpass**](./urban_overpass/README.md)
 
 ![overpass](img/overpass.png)
 
 **Figure 4**. Air-ground multi-link cooperative urban overpass scenario. 
 
-### [**Scenario 4:** **Air-ground multi-link cooperative suburban fork**](./forking_road/README.md)
+### [**Scenario 4:** **Air-Ground Multi-Link Cooperative Suburban Fork**](./forking_road/README.md)
 
 ![overpass](img/suburban_fork.png)
 
 **Figure 5**. Air-ground multi-link cooperative suburban fork scenario. 
 
-### [**Scenario 5:** **Air-ground multi-link cooperative mountain road**](./mountain_road/README.md)
+### [**Scenario 5:** **Air-Ground Multi-Link Cooperative Mountain Road**](./mountain_road/README.md)
 
 ![mountain road](img/mountain_road.png)
 
