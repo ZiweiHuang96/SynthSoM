@@ -517,7 +517,7 @@ The scenario includes vehicles of the **"Blue SUV"** type. The relative coordina
     </thead>
     <tbody>
         <tr>
-        <td><img src="img/car1_blue_SUV.png" alt="Side view of car1" width="100"></td>
+        <td><img src="img/car1_blue_suv.png" alt="Side view of car1" width="100"></td>
         <td>Blue SUV</td>
         <td>-0.1</td>
         <td>0</td>
