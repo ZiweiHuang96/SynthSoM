@@ -8,7 +8,7 @@ of Machines (SoM), named SynthSoM, is proposed. The SynthSoM dataset contains va
 scenarios with comprehensive conditions, including multiple weather conditions, times of the day, intelligent agent densities,
 frequency bands, and antenna types. The SynthSoM dataset encompasses multiple data modalities, including radio-frequency
 (RF) channel large-scale and small-scale fading data, RF millimeter wave (mmWave) radar sensory data, and non-RF sensory
-data, e.g., RGB images, depth maps, and light detection and ranging (LiDAR) point clouds. Overall, the SynthSoM dataset contains 456K sets of channel matrices, 104K sets of path loss, 230K sets of mmWave radar waveforms with 61K radar point clouds, 455K RGB images, 891K depth maps, and 241K sets of LiDAR point clouds. The quality of SynthSoM dataset
+data, e.g., RGB images, depth maps, and light detection and ranging (LiDAR) point clouds. Overall, the SynthSoM dataset contains 373K sets of channel matrices, 104K sets of path loss, 230K sets of mmWave radar waveforms with 61K radar point clouds, 455K RGB images, 891K depth maps, and 241K sets of LiDAR point clouds. The quality of SynthSoM dataset
 is validated via statistics-based qualitative inspection and evaluation metrics through machine learning (ML) via real-world
 measurements. The SynthSoM dataset is open-sourced and provides consistent data for cross-comparing SoM-related
 algorithms. 
