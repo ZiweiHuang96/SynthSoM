@@ -194,15 +194,4 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 
 ## Citation
 
-If you use **SynthSoM** in your research, please cite:
-
-```bibtex
-@article{cheng2025synthsom,
-  title        = {SynthSoM: A synthetic intelligent multi-modal sensing-communication dataset for Synesthesia of Machines (SoM)},
-  author       = {X. Cheng and Z. Huang and Y. Yu and L. Bai and M. Sun and Z. Han and R. Zhang and S. Li},
-  journal      = {Scientific Data},
-  year         = {2025},
-  note         = {accepted},
-  howpublished = {\url{https://arxiv.org/abs/2501.07459v2}}
-}
-
+X. Cheng, Z. Huang, Y. Yu, L. Bai, M. Sun, Z. Han, R. Zhang, and S. Li, “SynthSoM: A synthetic intelligent multi-modal sensing-communication dataset for Synesthesia of Machines (SoM)”, Scientific Data, accepted, 2025. [Online]. Available: https://arxiv.org/abs/2501.07459v2 (Nature Research Journal)
