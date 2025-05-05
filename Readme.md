@@ -191,3 +191,18 @@ The data directory hierarchy and content of the SynthSoM dataset are shown in Fi
 **Figure 8**. The data directory hierarchy and content of the SynthSoM dataset.
 
 To utilize the SynthSoM dataset for communication and multi-modal sensing tasks, we divide the SynthSoM dataset into five folders according to different scenarios. The scenario folder contains different conditions, and further contains different data modalities, i.e., RF sensory data, non-RF sensory data, and RF communication data. For convenience, the SynthSoM dataset is fully open-sourced.
+
+## Citation
+
+If you use **SynthSoM** in your research, please cite:
+
+```bibtex
+@article{cheng2025synthsom,
+  title        = {SynthSoM: A synthetic intelligent multi-modal sensing-communication dataset for Synesthesia of Machines (SoM)},
+  author       = {X. Cheng and Z. Huang and Y. Yu and L. Bai and M. Sun and Z. Han and R. Zhang and S. Li},
+  journal      = {Scientific Data},
+  year         = {2025},
+  note         = {accepted},
+  howpublished = {\url{https://arxiv.org/abs/2501.07459v2}}
+}
+
