@@ -195,3 +195,18 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 ## Citation
 
 X. Cheng, Z. Huang, Y. Yu, L. Bai, M. Sun, Z. Han, R. Zhang, and S. Li, “SynthSoM: A synthetic intelligent multi-modal sensing-communication dataset for Synesthesia of Machines (SoM)”, Scientific Data, accepted, 2025. [Online]. Available: https://arxiv.org/abs/2501.07459v2 (Nature Research Journal)
+
+## How to Obtain the Dataset
+You can download **Published data** directly from Figshare: https://figshare.com/s/3c0203236d3ae2eed872
+
+All datasets are hosted on Microsoft OneDrive.  
+Click the corresponding link below to download the scenario you need.
+| # | Scenario | Download Link |
+|---|----------|---------------|
+| 1 | **Air-ground multi-link cooperative urban crossroad scenario** | [OneDrive](https://1drv.ms/f/c/2ecb56630cb1c9b9/Eqa557lsp3JGkec3RReQmfgBLXnro3salsWjtZcP3-HbPA?e=rxHe4K) |
+| 2 | **Air-ground multi-link cooperative urban wide lane scenario** | [OneDrive](https://1drv.ms/f/c/0dac85eca919bb25/EruKFMFBgkhDiKWK_8BLByQBVOoshS0gnrgzXwBTVnxt_Q?e=Dlyuga) |
+| 3 | **Air-ground multi-link cooperative suburban fork scenario** | [OneDrive](https://1drv.ms/f/c/e437ff297b90b20a/EmHAx7MtufNIgCnfI5sBA_0BNxZaH8A1aLqf2y4rIYpfsQ?e=k83QrC) |
+| 4 | **Air-ground multi-link cooperative urban overpass scenario** | [OneDrive](https://1drv.ms/f/c/49c410559939c091/Ek34R3zFUDpGlMeUyyKupXcBSFdcU0DpNEypzHSDNCdpAg?e=efCB2R) |
+| 5 | **Air-ground multi-link cooperative mountain road scenario** | [OneDrive](https://1drv.ms/f/c/99f7731061a2474a/ElYoKcTXYtZNm5O6z9J91m0BWkuXNKngm6-5KC2fvLIx6A?e=JsFInZ) |
+
+
