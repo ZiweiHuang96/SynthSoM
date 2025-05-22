@@ -194,7 +194,7 @@ To utilize the SynthSoM dataset for communication and multi-modal sensing tasks,
 
 ## Citation
 
-X. Cheng, Z. Huang, Y. Yu, L. Bai, M. Sun, Z. Han, R. Zhang, and S. Li, “SynthSoM: A synthetic intelligent multi-modal sensing-communication dataset for Synesthesia of Machines (SoM)”, Scientific Data, accepted, 2025. [Online]. Available: https://arxiv.org/abs/2501.07459v2 (Nature Research Journal)
+X. Cheng, Z. Huang, Y. Yu, L. Bai, M. Sun, Z. Han, R. Zhang, and S. Li, “SynthSoM: A synthetic intelligent multi-modal sensing-communication dataset for Synesthesia of Machines (SoM)”, Scientific Data, vol. 12, pp. 819-833, May 2025.
 
 ## How to Obtain the Dataset
 You can download **Published data** directly from Figshare: https://figshare.com/s/3c0203236d3ae2eed872
