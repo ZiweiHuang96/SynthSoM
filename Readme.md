@@ -5,7 +5,7 @@ Given the importance of datasets for sensing-communication integration research,
 
 ![Overview](./img/Overview.png)
 
-![Video](./img/video.mp4)
+![Video](https://github.com/ZiweiHuang96/SynthSoM//img/video.mp4)
 
 **Figure 1**. Framework of constructing the developed simulation platform for the generation of the SynthSoM dataset.
 
