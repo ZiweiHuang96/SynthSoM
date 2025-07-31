@@ -9,7 +9,7 @@ Given the importance of datasets for sensing-communication integration research,
 
 **Figure 1**. Framework of constructing the developed simulation platform for the generation of the SynthSoM dataset.
 
-
+[Click to watch the video](http://pcni.pku.edu.cn/dataset.html)
 
 ## **Installation**
 
